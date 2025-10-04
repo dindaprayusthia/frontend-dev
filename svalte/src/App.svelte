@@ -4,13 +4,9 @@
   import About from './components/About.svelte';
   import Projects from './components/Projects.svelte';
   import Contact from './components/Contact.svelte';
-  
-  // Type-check imports
-  type Component = typeof Header;
-  const components: Component[] = [Header, Hero, About, Projects, Contact];
 </script>
 
-<main>
+<main class="relative">
   <Header />
   <Hero />
   <About />
